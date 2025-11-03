@@ -2,7 +2,15 @@
 Bu proje, Avrupa Birliği Yapay Zeka Yasası (EU AI Act) hakkında soruları yanıtlamak için Retrieval-Augmented Generation (RAG) mimarisini kullanan bir sohbet asistanıdır. Asistan, yalnızca resmi AB kaynaklarını kullanarak yüksek doğrulukta ve bağlama dayalı yanıtlar üretir.
 ✨ Temel ÖzelliklerUzman Bilgi Tabanı: 
 EU AI Act'in resmi metinleri ve SSS sayfaları bilgi kaynağı olarak kullanılır.Stateful RAG: Sohbet geçmişini hatırlar ve takip eden soruları bağlamına uygun şekilde yanıtlar.Modern LangChain: LangChain Expression Language (LCEL) kullanılarak modüler ve okunabilir zincirler oluşturulmuştur.WSL & UV Optimizasyonu: Linux (WSL) ortamında hızlı ve hafif uv paket yöneticisi ile bağımlılıklar yönetilir.
-🛠️ Teknoloji YığınıBileşenTeknolojiAmaçPaket YöneticisiuvHızlı bağımlılık yönetimi.Geliştirme OrtamıVSCode & WSL (Ubuntu/Debian)Linux üzerinde sorunsuz geliştirme.LLM & EmbeddingsGoogle Gemini (Gemini-2.5-Flash, text-embedding-004)Yapay zeka modeli ve metin gömülmeleri.Vektör VeritabanıChromaDBBelgeleri depolama ve hızlı sorgulama.ÇerçeveLangChainRAG zincirlerini oluşturma ve yönetme.
+#### 🛠️ Teknoloji Yığını
+
+| Bileşen | Teknoloji | Amaç |
+| :--- | :--- | :--- |
+| **Paket Yöneticisi** | `uv` | Hızlı bağımlılık yönetimi. |
+| **Geliştirme Ortamı** | VSCode & WSL (Ubuntu/Debian) | Linux üzerinde sorunsuz geliştirme. |
+| **LLM & Embeddings** | Google Gemini (Gemini-2.5-Flash, text-embedding-004) | Yapay zeka modeli ve metin gömülmeleri. |
+| **Vektör Veritabanı** | ChromaDB | Belgeleri depolama ve hızlı sorgulama. |
+| **Çerçeve** | LangChain | RAG zincirlerini oluşturma ve yönetme. |
 🌐 Bilgi Kaynakları (Knowledge Base)Uygulama, aşağıda belirtilen tam olarak bu resmi AB kaynaklarını tarayarak güncel bilgi tabanını oluşturur:
 https://eur-lex.europa.eu/eli/reg/2024/1689/oj/enghttps://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-aihttps://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_enhttps://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers
 ⚙️ Kurulum ve Çalıştırma

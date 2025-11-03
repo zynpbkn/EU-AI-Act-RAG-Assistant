@@ -1,0 +1,9 @@
+langchain==0.3.27
+langchain-google-genai==2.1.8
+python-dotenv==1.1.1
+langchain-chroma==0.2.5
+langchain-community==0.3.27
+pypdf==6.0.0
+pysqlite3-binary
+langchain-tavily
+beautifulsoup4
